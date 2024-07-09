@@ -1,0 +1,66 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Starbucks Product Landing Page</title>
+  <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+  <header id="header">
+    <img src="https://www.starbucks.in/assets/icon/logo.png" alt="Starbucks Logo" id="header-img">
+    <nav id="nav-bar">
+      <a href="#home" class="nav-link">Home</a>
+      <a href="#features" class="nav-link">Features</a>
+      <a href="#contact" class="nav-link">Contact</a>
+    </nav>
+  </header>
+
+  <main>
+    <section id="home">
+      <div class="hero" style="background-image: url('https://www.waldengalleria.com/wp-content/uploads/sites/3/2016/08/Starbucks_Opening-Soon_Hero-Image-600x215.png');">
+        <h1>Welcome to Starbucks</h1>
+        <p>Experience the best coffee in the world.</p>
+        <a href="#features" class="btn">Learn More</a>
+      </div>
+    </section>
+
+    <section id="features">
+      <h2>Our Features</h2>
+      <div class="features-container">
+        <div class="feature">
+          <img src="https://assets3.thrillist.com/v1/image/3134281/414x310/crop;webp=auto;jpeg_quality=60;progressive.jpg" alt="High Quality Coffee">
+          <h3>High Quality Coffee</h3>
+          <p>We use the finest beans to make your coffee experience exceptional.</p>
+        </div>
+        <div class="feature">
+          <img src="https://t3.ftcdn.net/jpg/03/25/42/56/360_F_325425609_PzCw7TRsmgDgPLkK6Twwb41RdTaULgdb.jpg" alt="Cozy Ambience">
+          <h3>Cozy Ambience</h3>
+          <p>Relax in our comfortable and inviting spaces.</p>
+        </div>
+        <div class="feature">
+          <img src="https://via.placeholder.com/150" alt="Friendly Service">
+          <h3>Friendly Service</h3>
+          <p>Our staff is here to make your visit enjoyable.</p>
+        </div>
+      </div>
+      <div class="video-container">
+        <iframe id="video" width="560" height="315" src="https://www.youtube.com/embed/q3ovyqbfOzk" frameborder="0" allowfullscreen></iframe>
+      </div>
+    </section>
+
+    <section id="contact">
+      <h2>Contact Us</h2>
+      <form id="form" action="https://www.freecodecamp.com/email-submit">
+        <label for="email">Email:</label>
+        <input type="email" id="email" name="email" placeholder="Enter your email" required>
+        <input type="submit" id="submit" value="Submit">
+      </form>
+    </section>
+  </main>
+
+  <footer>
+    <p>&copy; 2024 Starbucks. All rights reserved.</p>
+  </footer>
+</body>
+</html>
